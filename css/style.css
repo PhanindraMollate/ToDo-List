@@ -1,0 +1,198 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8,
+#leftHandM2,
+#check,
+#rightHandM2,
+#hours,
+#minutes,
+#handM1
+{
+    cursor: pointer;
+    transform-box: fill-box;
+}
+
+#handM1{
+    animation: handM1 ease-in-out 1.6s infinite alternate ;
+    transform-origin: bottom;
+}
+
+@keyframes handM1
+{
+    0%{ transform: rotate(10deg) ;}
+    100%{ transform: rotate(-5deg) ;}
+}
+
+
+
+#leftHandM2{
+    animation: handM1 ease-in-out 1.6s infinite alternate ;
+    transform-origin: bottom;
+}
+
+@keyframes leftHandM2
+{
+    0%{ transform: rotate(10deg) ;}
+    100%{ transform: rotate(-5deg) ;}
+}
+
+
+#rightHandM2{
+    animation: handM1 ease-in-out 1.6s infinite alternate ;
+    transform-origin: bottom;
+}
+
+@keyframes rightHandM2
+{
+    0%{ transform: rotate(10deg) ;}
+    100%{ transform: rotate(-5deg) ;}
+}
+
+
+
+#check{
+    animation: handM1 ease-in-out 1.6s infinite alternate ;
+    transform-origin: bottom;
+}
+
+@keyframes check
+{
+    0%{ transform: rotate(10deg) ;}
+    100%{ transform: rotate(-5deg) ;}
+}
+
+
+
+/* #minutes
+{
+         animation: clock 10s infinite linear ;
+         transform-origin: top;
+}
+
+
+
+#hours
+{
+    animation: clock 60s infinite linear ;
+    transform-origin: top;
+}
+
+
+@keyframes clock
+{
+    0%{ transform: rotateX(0deg) ;}
+    100%{ transform: rotateZ(359deg) ;}
+} */
+
+
+
+#p1{
+    animation: swing ease-in-out 5s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+#p2{
+    animation: swing ease-in-out 3.5s infinite alternate ;
+    transform-origin: bottom;
+}
+
+#p3{
+    animation: swing ease-in-out 2.5s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+#p4{
+    animation: swing ease-in-out 2s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+
+#p5{
+    animation: swing ease-in-out 2s infinite alternate ;
+    transform-origin: bottom;
+}
+
+#p6{
+    animation: swing ease-in-out 3.5s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+#p7{
+    animation: swing ease-in-out 5s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+#8{
+    animation: swing ease-in-out 8s infinite alternate ;
+    transform-origin: bottom;
+}
+
+
+
+
+@keyframes swing
+{
+    0%{ transform: rotate(-6deg) ;}
+    100%{ transform: rotate(6deg) ;}
+}
+
+
+
+
+
+
+
+#bann {
+
+    background-color: #ffecdb;
+    
+}
+
+#bann button{
+
+    background-color: #ff7904;
+    border: none;
+    
+}
+
+.row button{
+
+    background-color: #ff7904;
+    border: none;
+
+}
+
+
+.row button:hover{
+
+    background-color: #ff4800;
+    border: none;
+
+}
